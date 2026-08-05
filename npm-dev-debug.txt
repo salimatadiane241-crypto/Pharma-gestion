@@ -1,0 +1,79 @@
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+npm info using npm@11.13.0
+npm info using node@v24.16.0
+npm verbose title npm run dev
+npm verbose argv "run" "dev" "--loglevel" "verbose"
+npm verbose logfile logs-max:10 dir:C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-18T13_14_14_520Z-
+npm verbose logfile C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-18T13_14_14_520Z-debug-0.log
+
+> dev
+> npm run development
+
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+npm info using npm@11.13.0
+npm info using node@v24.16.0
+npm verbose title npm run development
+npm verbose argv "run" "development"
+npm verbose logfile logs-max:10 dir:C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-18T13_14_17_345Z-
+npm verbose logfile C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-18T13_14_17_345Z-debug-0.log
+
+> development
+> mix
+
+npm verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+npm info using npm@11.13.0
+npm info using node@v24.16.0
+npm verbose title npm exec webpack --config=node_modules\laravel-mix\setup\webpack.config.js
+npm verbose argv "exec" "--" "webpack" "--config=node_modules\\laravel-mix\\setup\\webpack.config.js"
+npm verbose logfile logs-max:10 dir:C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-18T13_14_20_754Z-
+npm verbose logfile C:\Users\HP\AppData\Local\npm-cache\_logs\2026-07-18T13_14_20_754Z-debug-0.log
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mWebpack[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+i Compiling Mix
+node:internal/crypto/hash:103
+  this[kHandle] = new _Hash(algorithm, xofLen, algorithmId, getHashCache());
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:103:19)
+    at Object.createHash (node:crypto:146:10)
+    at BulkUpdateDecorator.hashFactory (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\util\createHash.js:145:18)
+    at BulkUpdateDecorator.digest (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\util\createHash.js:80:21)
+    at NormalModule._initBuildHash (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:872:53)
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:912:10
+    at processResult (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:708:12)
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:807:5
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\loader-runner\lib\LoaderRunner.js:399:11
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\loader-runner\lib\LoaderRunner.js:251:18 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v24.16.0
+npm verbose cwd C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master
+npm verbose os Windows_NT 10.0.26200
+npm verbose node v24.16.0
+npm verbose npm  v11.13.0
+npm verbose exit 1
+npm verbose code 1
+npm verbose cwd C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master
+npm verbose os Windows_NT 10.0.26200
+npm verbose node v24.16.0
+npm verbose npm  v11.13.0
+npm verbose exit 1
+npm verbose code 1
+npm verbose cwd C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master
+npm verbose os Windows_NT 10.0.26200
+npm verbose node v24.16.0
+npm verbose npm  v11.13.0
+npm verbose exit 1
+npm verbose code 1

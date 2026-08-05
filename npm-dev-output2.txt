@@ -1,0 +1,40 @@
+
+> dev
+> npm run development
+
+
+> development
+> mix
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mWebpack[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+i Compiling Mix
+node:internal/crypto/hash:103
+  this[kHandle] = new _Hash(algorithm, xofLen, algorithmId, getHashCache());
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:103:19)
+    at Object.createHash (node:crypto:146:10)
+    at BulkUpdateDecorator.hashFactory (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\util\createHash.js:145:18)
+    at BulkUpdateDecorator.digest (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\util\createHash.js:80:21)
+    at NormalModule._initBuildHash (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:872:53)
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:912:10
+    at processResult (C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:708:12)
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\webpack\lib\NormalModule.js:807:5
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\loader-runner\lib\LoaderRunner.js:399:11
+    at C:\Users\HP\Documents\Pharmacy-Management-System-Using-Laravel-master\node_modules\loader-runner\lib\LoaderRunner.js:251:18 {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v24.16.0
